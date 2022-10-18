@@ -1,0 +1,92 @@
+body {
+    font-family: 'Lora';
+}
+
+h1 {
+    text-align: center;
+}
+
+img {
+    padding: 0;
+    display: block;
+    margin: 0 auto;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+#header img {
+    height: 20vmin;
+    width: 20vmin;
+}
+
+
+#menu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding-left: 55vmin;
+    padding-right: 55vmin;
+}
+
+button {
+    font: inherit;
+    cursor: pointer;
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+button:active {
+    background-color: #E6E6E6;
+}
+
+hr {
+    border: none;
+    height: 1.5px;
+    background-color: #333;
+}
+
+#hours-and-contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 30vw;
+    padding-right: 30vw;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.item-section h2 {
+    text-align: center;
+}
+
+.item-section-images {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 30vw;
+    padding-right: 30vw;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.item-section-images img {
+    width: 30%;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.item-section-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 30vw;
+    padding-right: 30vw;
+    align-items: center;
+    flex-wrap: wrap;
+}

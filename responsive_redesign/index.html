@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Responsive Redesign</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <h1>Responsive Redesign</h1>
+    <h2>Overview</h2>
+    <p>
+        In this project, I practiced the workflow of redesigning a simple website. I exercised my skills in analyzing
+        and identifying flaws in an existing interface, creating low-fidelity and high-fidelity prototypes for various
+        screen sizes, and building a responsive website based on those prototypes.
+    </p>
+    <h2>Identifying Usability Problems</h2>
+    <h3>Picking a Web Page</h3>
+    <img src="fellini.png" alt="A picture of the Fellini Pizzeria website.">
+    <p>
+        I chose the <a href="https://www.fellinipizzeria.com/">Fellini Pizzeria</a> website because I think there are
+        immediately apparent usability problems with the site, which is a shame because their pizza is pretty good. In
+        particular, I want to examine how the presentation of information on the site can be improved.
+    </p>
+
+    <h3>Finding Problems</h3>
+    <p>After choosing a site to redesign, I identified its flaws in terms of usability, learnability, and memorability.
+    </p>
+    <blockquote>
+        <p>Usability:</p>
+        <ul>
+            <li>
+                It’s not <strong>intuitive</strong> that the hours and contact information for the restaurant are listed
+                in
+                an unmarked section at the bottom of the site; this is probably the first piece of information that
+                users
+                would like to know after visiting the site.
+            </li>
+            <li>
+                The structure of the site does not lend itself to an <strong>efficient</strong> user experience; users
+                must
+                scroll past the entire menu before learning whether or not the restaurant is open.
+            </li>
+            <li>
+                The menu bar does change in <strong>response</strong> to the user’s screen size, but the mobile screen
+                size causes the
+                “responsive” menu bar to be much harder to use since it’s messily formatted.
+            </li>
+        </ul>
+
+        <p>Learnability:</p>
+        <ul>
+            <li>
+                Some headers are listed on the site’s menu bar (e.g., “Pizza”, “Salad”), but other headers at the same
+                header level are not listed (“Create”); since site navigation is not consistent, it’s harder for users
+                to learn.
+            </li>
+        </ul>
+
+        <p>Memorability:</p>
+        <ul>
+            <li>
+                Use of the logo is limited, only appearing in the site’s favicon and the header (and it’s too small to
+                actually see).
+            </li>
+            <li>
+                There’s a lack of visual appeal due to the washed out looking images and the fact that the main landing
+                image looks like a stock photo of nondescript floorboards.
+            </li>
+        </ul>
+    </blockquote>
+
+    <h3>Accessibility</h3>
+    <p>
+        In addition to analyzing the website on the three usability guidelines, I used WebAIM WAVE to detect possible
+        accessibility problems.
+
+        WebAIM WAVE points out that the contrast of the landing page text against the image is poor and makes the text
+        difficult to read. I totally agree, since the text is white and the image contains some scattered white
+        elements. Other than that, the site performs pretty well on WebAIM Wave's metrics, which I think is enabled by
+        its simple design. There are some “skipped heading” issues, but I think those are not the end of the world and
+        are more of a stylistic choice made by the site’s designers rather than an accessibility oversight.
+    </p>
+
+    <h2>Visual Redesign</h2>
+    <h3>Low-Fidelity Wireframing</h3>
+    <p>
+        I created low-fidelity wireframes for the site using Balsamiq. I used the wireframes to test out different
+        layouts and to get a sense of how the site would look on different screen sizes (e.g., desktop, tablet, and
+        mobile).
+    </p>
+    <h4>Desktop Wireframe</h4>
+    <img src="desktop_wireframe.png" alt="A picture of the low-fi desktop wireframe for the Fellini Pizzeria website.">
+    <h4>Tablet Wireframe</h4>
+    <img src="tablet_wireframe.png" alt="A picture of the low-fi tablet wireframe for the Fellini Pizzeria website.">
+    <h4>Mobile Wireframe</h4>
+    <img src="mobile_wireframe.png" alt="A picture of the low-fi mobile wireframe for the Fellini Pizzeria website.">
+    <h3>Visual Design Style Guide</h3>
+    <p>
+        I also created a visual design style guide that displays the main colors, typography, and reusable
+        components’ different states for the site. I used the style guide to make sure that the high-fidelity
+        prototypes I created were consistent with the visual design of the site.
+    </p>
+    <img src="style_guide.png" alt="A picture of the visual design style guide for the Fellini Pizzeria website.">
+
+    <h3>High-Fidelity Prototyping</h3>
+    <p>
+        Using Figma, I created a total of 3 high-fidelity prototypes for the site, one for each of the screen sizes
+        (mobile, tablet, desktop).
+
+        I annotated the elements within the prototype so that a developer would be able to take the designs and
+        reproduce them without needing much additional explanation. In my redesign, I only needed to annotate the
+        desktop version of the site since the styling is the same for the tablet and mobile versions.
+    </p>
+    <h4>Desktop Prototype</h4>
+    <img src="desktop_prototype.png" alt="A picture of the high-fi desktop prototype for the Fellini Pizzeria website.">
+    <h4>Tablet Prototype</h4>
+    <img src="tablet_prototype.png" alt="A picture of the high-fi tablet prototype for the Fellini Pizzeria website.">
+    <h4>Mobile Prototype</h4>
+    <img src="mobile_prototype.png" alt="A picture of the high-fi mobile prototype for the Fellini Pizzeria website.">
+
+
+    <h2>Responsive Redesign</h2>
+    <p>Using the final high-fidelity prototypes, I created the redesigned page using HTML and CSS. You can find a link
+        to the site <a href="../fellini">here</a>.</p>
+    <img src="redesign.png" alt="A picture of the responsive redesign for the Fellini Pizzeria website.">
+</body>
+
+</html>
